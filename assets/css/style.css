@@ -19,12 +19,20 @@ body {
 }
 
 #title {
-  width: 250px;
+  width: 448px;
   padding: 4px;
   margin-bottom: 10px;
-  color: white;
-  background-color:#00887569;
+  font-size: 6vw;
+  animation: rainbow 1s infinite;
   margin:0 auto;
+}
+
+@keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}  
 }
 
 #rules-area {
@@ -41,10 +49,12 @@ body {
   width: 200px;
   height: 100px;
   padding: 4px;
-  font-size: 3vw;
+  font-size: 6vw;
   color: purple;
   background-color: mediumseagreen;
-  margin:0 auto;
+  margin-top: 10px;
+  margin-left: 200px;
+  float: left;
 }
 
 #score-area {
@@ -79,13 +89,15 @@ body {
 }
 
 #score-number {
-  font-size: 3vw;
+  font-size: 6vw;
 }
 
 #win-area {
   height: 100px;
+  width: 200px;
   padding: 4px;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 200px;
   background-color: aqua;
+  float: right;
 }
