@@ -14,17 +14,11 @@ body {
   overflow: auto;
 }
 
-#screen div {
-  float: center;
-}
-
 #title {
-  width: 448px;
   padding: 4px;
   margin-bottom: 10px;
   font-size: 6vw;
   animation: rainbow 1s infinite;
-  margin:0 auto;
 }
 
 @keyframes rainbow{
@@ -49,7 +43,7 @@ body {
   width: 200px;
   height: 100px;
   padding: 4px;
-  font-size: 6vw;
+  font-size: 5vw;
   color: purple;
   background-color: mediumseagreen;
   margin-top: 10px;
@@ -89,7 +83,7 @@ body {
 }
 
 #score-number {
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 #win-area {
